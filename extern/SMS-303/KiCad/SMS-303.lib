@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SMS-303
+#/1720197/1261093/2.50/20/4/Undefined or Miscellaneous
+DEF SMS-303 U 0 30 Y Y 1 F N
+F0 "U" 850 500 50 H V L CNN
+F1 "SMS-303" 850 400 50 H V L CNN
+F2 "SMS303" 850 300 50 H I L CNN
+F3 "https://www.leadertechinc.com/assets/files/EngineeringDrawings/SMS-303.PDF" 850 200 50 H I L CNN
+F4 "EMI Gaskets, Sheets, Absorbers & Shielding 1.032X1.032X0.2 IN 1PC NON-VENTED" 850 100 50 H I L CNN "Description"
+F5 "5.08" 850 0 50 H I L CNN "Height"
+F6 "Leader Tech Inc." 850 -100 50 H I L CNN "Manufacturer_Name"
+F7 "SMS-303" 850 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "861-SMS-303" 850 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=861-SMS-303" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -500 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -600 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 300 -900 200 U 50 50 0 0 P
+X 7 7 400 -900 200 U 50 50 0 0 P
+X 8 8 500 -900 200 U 50 50 0 0 P
+X 9 9 600 -900 200 U 50 50 0 0 P
+X 10 10 700 -900 200 U 50 50 0 0 P
+X 11 11 1000 -400 200 L 50 50 0 0 P
+X 12 12 1000 -300 200 L 50 50 0 0 P
+X 13 13 1000 -200 200 L 50 50 0 0 P
+X 14 14 1000 -100 200 L 50 50 0 0 P
+X 15 15 1000 0 200 L 50 50 0 0 P
+X 16 16 700 500 200 D 50 50 0 0 P
+X 17 17 600 500 200 D 50 50 0 0 P
+X 18 18 500 500 200 D 50 50 0 0 P
+X 19 19 400 500 200 D 50 50 0 0 P
+X 20 20 300 500 200 D 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -700 200 -700 200 300 N
+ENDDRAW
+ENDDEF
+#
+#End Library
