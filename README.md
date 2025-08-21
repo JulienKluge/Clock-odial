@@ -1,2 +1,3 @@
-# Clock-odial
-Clock-odial is a PCB featuring a ECP5 fpga for frequency/clock signal processing
+# Clock'odial 🐊
+
+Clock'odial is a PCB board which does frequency and clock signal processing.
