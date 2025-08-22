@@ -3363,7 +3363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm"
+		(property "Footprint" "1_Footprint_Library:VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm"
 			(at 138.43 136.906 0)
 			(effects
 				(font

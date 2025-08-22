@@ -8160,6 +8160,17 @@
 		)
 		(uuid "2ba3128c-557e-41b0-9fc5-aef21207f6f4")
 	)
+	(text "We expect around <1.5pF trace/pad\ncapacitance. Additionally, 5-8pF\nof input capacitance of the FPGA\npad. So in total <10pF of load\ncapacitance. The MEMS specifiecs\nCL=15pF. So do not place a load\ncapacitor since we already reach\nit via parasitics."
+		(exclude_from_sim no)
+		(at 97.79 140.97 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left)
+		)
+		(uuid "3ec4bfa4-4927-4821-a861-e954d068a963")
+	)
 	(text "sysCONFIG Table 4.5:\n2. CSSPIN should have 4.7 kΩ pull-up on-board resistor for MSPI.\n4. MOSI and MISO should have 10 kΩ pull-up resistor on-board for MSPI.\n5. IO[3:2] should have 10 kΩ pull-up resistor on-board for QUAD MSPI.\n6. MCLK should have a 1 kΩ pull-up."
 		(exclude_from_sim no)
 		(at 189.23 139.7 0)
@@ -8237,6 +8248,17 @@
 			(justify left)
 		)
 		(uuid "bc867d31-3259-4825-9fd8-c3dab0155214")
+	)
+	(text "sysCONFIG Table 4.9:\nTDI Input with weak pull-up\nTDO Output with weak pull-up\nTCK Input\nTMS Input with weak pull-up\n\n\"The TCK pin does not have a pull-up.\nAn external pull-down resistor of 4.7 kΩ\nis recommended to avoid inadvertently\nclocking the TAP controller as power is\napplied to the ECP5 and ECP5-5G devices.\""
+		(exclude_from_sim no)
+		(at 38.1 140.97 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left)
+		)
+		(uuid "d99bac0a-c004-43f2-a9db-dbc35b7ea22e")
 	)
 	(text "Grounding the shield is\ndone on the host side.\nLeave the option but\ndisable it by default."
 		(exclude_from_sim no)
@@ -10567,7 +10589,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0a21d581-206b-45e7-93b7-7ad458d5e5ee")
 		(property "Reference" "C131"
 			(at 97.79 132.0799 0)
@@ -10578,7 +10600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "4p7"
 			(at 97.79 134.6199 0)
 			(effects
 				(font

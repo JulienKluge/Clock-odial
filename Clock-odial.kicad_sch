@@ -1123,7 +1123,7 @@
 		)
 		(uuid b68b6550-f896-4825-aaac-b0a22fa916bb)
 	)
-	(text "Clocker v0.1"
+	(text "Clock'odial v0.2"
 		(exclude_from_sim no)
 		(at 12.7 16.51 0)
 		(effects
@@ -1149,7 +1149,7 @@
 		)
 		(uuid "5faaa322-1643-40b1-b553-521a38e65188")
 	)
-	(text "This board is featuring an ECP5G-family Lattice fpga as the main chip to allow conditioning of\nhigh frequency clock signals. The RF input side and output side are optimized for low dispersion\nclock signals. I couldn't afford the best IC's for this project in the first iteration but if\nthe prototypes work out, then maybe a second iteration of this board is produced with an improved\nRF front and backend. Maybe even a more powerfull fpga.\nThe fpga is supposed to be programmed through a FTDI passtrhough JTAG connection all in the realm\nof open source packages.\n\nAlso, the design is highly inspirated from the icepi-zero project from cheyao. See:\nhttps://github.com/cheyao/icepi-zero/\n"
+	(text "This board is featuring an ECP5G-family Lattice fpga as the main chip to allow conditioning of\nhigh frequency clock signals. The RF input side and output side are optimized for low dispersion\nclock signals. I couldn't afford the best IC's for this project in the first iteration but if\nthe prototypes work out, then maybe a second iteration of this board is produced with an improved\nRF front and backend. Maybe even a more powerful fpga.\nThe fpga is supposed to be programmed through a FTDI passtrhough JTAG connection all in the realm\nof open source packages.\n\nAlso, the design is highly inspirated from the icepi-zero project from cheyao. See:\nhttps://github.com/cheyao/icepi-zero/\n"
 		(exclude_from_sim no)
 		(at 13.97 30.48 0)
 		(effects
@@ -1253,7 +1253,7 @@
 		)
 		(uuid "eaac1611-df99-4c1d-ac18-3ac84da512b3")
 	)
-	(text "Production Information:\n@ JLCPCB\nJLC0616H-3313 Layer Stackup\n0.1557mm  50 Ohm trace with 0.4mm trace to copper\n0.4481mm  50 Ohm differential with 0.2mm trace distance & 0.4mm trace to copper\n0.1575mm  90 Ohm differential with 0.2mm trace distance & 0.4mm trace to copper\n0.1234mm 100 Ohm differential with 0.2mm trace distance & 0.4mm trace to copper"
+	(text "Production Information:\n@ JLCPCB\nJLC0616H-3313 Layer Stackup\n0.1557mm  50 Ohm trace with 0.4mm trace to copper\n0.4481mm  50 Ohm differential with 0.2mm trace distance & 0.4mm trace to copper\n0.1575mm  90 Ohm differential with 0.2mm trace distance & 0.4mm trace to copper\n0.1234mm 100 Ohm differential with 0.2mm trace distance & 0.4mm trace to copper\n\nFor convenience reasons, the 90 Ohm differential is exclusively routed for LVDS. (+-20% margin allowed)"
 		(exclude_from_sim no)
 		(at 15.24 172.72 0)
 		(effects
@@ -1263,6 +1263,17 @@
 			(justify left)
 		)
 		(uuid "eb216924-4960-4062-ad3f-96c3ba69f84f")
+	)
+	(text "This RF shield might seem\npointless given its position\non the board. And thats true!\nI just had these shields\nlaying around and wanted to\nsee how easy those are to\nplace & solder."
+		(exclude_from_sim no)
+		(at 247.65 43.18 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "ef3dc2db-bd3f-4bf4-a1ee-7b6114027b26")
 	)
 	(text "RF Shield"
 		(exclude_from_sim no)
