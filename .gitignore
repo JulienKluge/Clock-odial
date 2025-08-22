@@ -20,6 +20,7 @@ _autosave-*
 fp-info-cache
 /build
 *.lck
+Clock-odial-backups/**
 
 # Netlist files (exported from Eeschema)
 *.net
